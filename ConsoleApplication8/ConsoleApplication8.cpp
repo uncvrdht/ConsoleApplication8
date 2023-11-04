@@ -116,11 +116,7 @@ int main() {
     Group group1(1);
     Group group2(2);
 
-    if (logFile.is_open())
-    {
-        logFile << "============================================================================" << endl;
-        logFile.close();
-    }
+   
 
     // Ваш код для работы с объектами Student и Group
     
